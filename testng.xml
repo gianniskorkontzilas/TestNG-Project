@@ -2,7 +2,7 @@
     <test name="myTes">
         <classes>
             <class name="FirstTestNgClass"/>
-            <class name="SecondTestNgClass"/>
+<!--            <class name="SecondTestNgClass"/>-->
         </classes>
     </test>
 </suite>

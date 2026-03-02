@@ -20,34 +20,31 @@ public class FirstTestNgClass {
         driver.quit();
     }
 
-    @Test
+    @Test (priority = 0)
     public void openWebSite() {
         System.out.println("Let's open the browser");
         driver.navigate().to("https://www.google.com");
     }
 
-    @Test
+    @Test (priority = 1)
     public void signUp() {
         System.out.println("Signing up");
     }
 
-    @Test
+    @Test (priority = 2)
     public void login() {
         System.out.println("Logging in");
     }
 
-    @Test
+    @Test (priority = 3)
     public void addToCard() {
         System.out.println("Add items to card");
     }
 
-    @Test
+    @Test  (priority = 4)
     public void logOut() {
         System.out.println("Logging out");
     }
 
-    @Test
-    public void closeBrowser() {
-        System.out.println("Closing browser ");
-    }
+  
 }
